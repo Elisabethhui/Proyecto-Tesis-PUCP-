@@ -1,0 +1,155 @@
+\hypertarget{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance}{\section{Heat\-Diffusion\-:\-:Distance\-:\-:Biharmonic\-Distance Class Reference}
+\label{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance}\index{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance}}
+}
+
+
+Compute the Biharmonic distance between vertices in a 3\-D mesh.  
+
+
+
+
+{\ttfamily \#include $<$Biharmonic\-Distance.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_ad61fe93902113412d0cb712eb4f9bbe0}{Biharmonic\-Distance} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\hyperlink{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a1cc354ae2226a700b137206c267b95b8}{Biharmonic\-Distance} (float $\ast$eval, float $\ast$evec, unsigned int n\-V, unsigned int n\-E)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a228d1705467139ffd387265e8ebade30}{set\-Eigendecomposition} (float $\ast$eval, float $\ast$evecs)
+\begin{DoxyCompactList}\small\item\em Setter. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a528ffb84264f0b3863c13b1bf9c2c75f}{set\-Number\-Vertices} (unsigned int n\-V)
+\begin{DoxyCompactList}\small\item\em Setter method. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_adc893b08d6c0252913938a775a35bb26}{set\-Number\-Eigenvalues} (unsigned int n\-E)
+\begin{DoxyCompactList}\small\item\em Setter method. \end{DoxyCompactList}\item 
+float \hyperlink{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a3c6d819ac6549c545f0476e6f669e3a1}{compute\-Squared\-Distance} (unsigned int v1, unsigned int v2)
+\begin{DoxyCompactList}\small\item\em Computation of distance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_adc8e3a1b8d572f933cbfa9703b1ca241}{float $\ast$ {\bfseries evals}}\label{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_adc8e3a1b8d572f933cbfa9703b1ca241}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a1a40a27ab8caa25c07ec7efff4ecce52}{float $\ast$ {\bfseries evecs}}\label{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a1a40a27ab8caa25c07ec7efff4ecce52}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a3e124409e3a0ddff66b4682aa79b3ac2}{unsigned int {\bfseries num\-\_\-vertex}}\label{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a3e124409e3a0ddff66b4682aa79b3ac2}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a3afbdad28f9c404afe8ecc8291bb8a0c}{unsigned int {\bfseries num\-\_\-eigenvalues}}\label{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a3afbdad28f9c404afe8ecc8291bb8a0c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Compute the Biharmonic distance between vertices in a 3\-D mesh. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_ad61fe93902113412d0cb712eb4f9bbe0}{\index{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance}!Biharmonic\-Distance@{Biharmonic\-Distance}}
+\index{Biharmonic\-Distance@{Biharmonic\-Distance}!HeatDiffusion::Distance::BiharmonicDistance@{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance}}
+\subsubsection[{Biharmonic\-Distance}]{\setlength{\rightskip}{0pt plus 5cm}Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance\-::\-Biharmonic\-Distance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_ad61fe93902113412d0cb712eb4f9bbe0}
+
+
+Constructor. 
+
+Default constructor. \hypertarget{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a1cc354ae2226a700b137206c267b95b8}{\index{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance}!Biharmonic\-Distance@{Biharmonic\-Distance}}
+\index{Biharmonic\-Distance@{Biharmonic\-Distance}!HeatDiffusion::Distance::BiharmonicDistance@{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance}}
+\subsubsection[{Biharmonic\-Distance}]{\setlength{\rightskip}{0pt plus 5cm}Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance\-::\-Biharmonic\-Distance (
+\begin{DoxyParamCaption}
+\item[{float $\ast$}]{eval, }
+\item[{float $\ast$}]{evec, }
+\item[{unsigned int}]{n\-V, }
+\item[{unsigned int}]{n\-E}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a1cc354ae2226a700b137206c267b95b8}
+
+
+Constructor. 
+
+It creates an object with the provided data 
+\begin{DoxyParams}{Parameters}
+{\em eval} & the buffer of eigenvalues \\
+\hline
+{\em evecs} & the buffer of eigenvectors \\
+\hline
+{\em n\-V} & the number of vertices \\
+\hline
+{\em n\-E} & the number of eigenvalues \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a3c6d819ac6549c545f0476e6f669e3a1}{\index{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance}!compute\-Squared\-Distance@{compute\-Squared\-Distance}}
+\index{compute\-Squared\-Distance@{compute\-Squared\-Distance}!HeatDiffusion::Distance::BiharmonicDistance@{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance}}
+\subsubsection[{compute\-Squared\-Distance}]{\setlength{\rightskip}{0pt plus 5cm}float Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance\-::compute\-Squared\-Distance (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{v1, }
+\item[{unsigned int}]{v2}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a3c6d819ac6549c545f0476e6f669e3a1}
+
+
+Computation of distance. 
+
+Computes the squared conmute-\/time distance between two vertices 
+\begin{DoxyParams}{Parameters}
+{\em v1} & the index of the first vertex \\
+\hline
+{\em v2} & the index of the second vertex \\
+\hline
+\end{DoxyParams}
+\hypertarget{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a228d1705467139ffd387265e8ebade30}{\index{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance}!set\-Eigendecomposition@{set\-Eigendecomposition}}
+\index{set\-Eigendecomposition@{set\-Eigendecomposition}!HeatDiffusion::Distance::BiharmonicDistance@{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance}}
+\subsubsection[{set\-Eigendecomposition}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance\-::set\-Eigendecomposition (
+\begin{DoxyParamCaption}
+\item[{float $\ast$}]{eval, }
+\item[{float $\ast$}]{evecs}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a228d1705467139ffd387265e8ebade30}
+
+
+Setter. 
+
+Sets the eigenvalues and eigenvectors of the \hyperlink{classHeatDiffusion_1_1Laplacian}{Laplacian} matrix \hypertarget{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_adc893b08d6c0252913938a775a35bb26}{\index{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance}!set\-Number\-Eigenvalues@{set\-Number\-Eigenvalues}}
+\index{set\-Number\-Eigenvalues@{set\-Number\-Eigenvalues}!HeatDiffusion::Distance::BiharmonicDistance@{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance}}
+\subsubsection[{set\-Number\-Eigenvalues}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance\-::set\-Number\-Eigenvalues (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{n\-E}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_adc893b08d6c0252913938a775a35bb26}
+
+
+Setter method. 
+
+Sets the number of eigen-\/pairs 
+\begin{DoxyParams}{Parameters}
+{\em n\-E} & the number of eigen-\/pairs \\
+\hline
+\end{DoxyParams}
+\hypertarget{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a528ffb84264f0b3863c13b1bf9c2c75f}{\index{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance}!set\-Number\-Vertices@{set\-Number\-Vertices}}
+\index{set\-Number\-Vertices@{set\-Number\-Vertices}!HeatDiffusion::Distance::BiharmonicDistance@{Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance}}
+\subsubsection[{set\-Number\-Vertices}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Distance\-::\-Biharmonic\-Distance\-::set\-Number\-Vertices (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{n\-V}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1BiharmonicDistance_a528ffb84264f0b3863c13b1bf9c2c75f}
+
+
+Setter method. 
+
+Sets the number of vertices 
+\begin{DoxyParams}{Parameters}
+{\em n\-V} & the number of vertices \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+include/\-Distance/Biharmonic\-Distance.\-h\end{DoxyCompactItemize}

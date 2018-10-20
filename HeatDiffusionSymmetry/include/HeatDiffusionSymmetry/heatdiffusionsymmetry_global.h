@@ -1,0 +1,45 @@
+#ifndef HEATDIFFUSIONSYMMETRY_GLOBAL_H
+#define HEATDIFFUSIONSYMMETRY_GLOBAL_H
+
+//Helper macros to define library symbol visibility
+#ifdef HEATDIFFUSIONSYMMETRY_EXPORT
+#undef HEATDIFFUSIONSYMMETRY_EXPORT
+#endif
+
+#ifdef HEATDIFFUSIONSYMMETRY_IMPORT
+#undef HEATDIFFUSIONSYMMETRY_IMPORT
+#endif
+
+#ifdef _MSC_VER
+    #if defined(_DLL) && !defined(HEATDIFFUSIONSYMMETRY_STATICLIB) && !defined(HEATDIFFUSIONSYMMETRY_DLL)
+        #define HEATDIFFUSIONSYMMETRY_DLL
+    #endif
+#endif
+
+#ifdef __GNUC__
+    #define HEATDIFFUSIONSYMMETRY_EXPORT __attribute__((visibility("default")))
+    #define HEATDIFFUSIONSYMMETRY_IMPORT __attribute__((visibility("default")))
+#endif
+
+#ifdef _MSC_VER
+    #ifdef HEATDIFFUSIONSYMMETRY_DLL
+        #define HEATDIFFUSIONSYMMETRY_EXPORT __declspec(dllexport)
+        #define HEATDIFFUSIONSYMMETRY_IMPORT __declspec(dllimport)
+    #else
+        #define HEATDIFFUSIONSYMMETRY_EXPORT
+        #define HEATDIFFUSIONSYMMETRY_IMPORT
+    #endif
+#endif
+
+#ifdef HEATDIFFUSIONSYMMETRY_API
+#undef HEATDIFFUSIONSYMMETRY_API
+#endif
+
+#ifdef HEATDIFFUSIONSYMMETRY_LIBRARY
+    #define HEATDIFFUSIONSYMMETRY_API HEATDIFFUSIONSYMMETRY_EXPORT
+#else
+    #define HEATDIFFUSIONSYMMETRY_API HEATDIFFUSIONSYMMETRY_IMPORT
+#endif
+
+#endif // HEATDIFFUSION_GLOBAL_H
+

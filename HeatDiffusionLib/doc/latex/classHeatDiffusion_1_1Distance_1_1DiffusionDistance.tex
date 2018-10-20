@@ -1,0 +1,158 @@
+\hypertarget{classHeatDiffusion_1_1Distance_1_1DiffusionDistance}{\section{Heat\-Diffusion\-:\-:Distance\-:\-:Diffusion\-Distance Class Reference}
+\label{classHeatDiffusion_1_1Distance_1_1DiffusionDistance}\index{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance}}
+}
+
+
+Compute the Diffusion distance between vertices in a 3\-D mesh.  
+
+
+
+
+{\ttfamily \#include $<$Diffusion\-Distance.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a8e8baa67a9e1c65048efc05bcfbf9f09}{Diffusion\-Distance} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\hyperlink{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_ab0894c1a691c9567c65213b61bed2d77}{Diffusion\-Distance} (float $\ast$eval, float $\ast$evec, unsigned int n\-V, unsigned int n\-E)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_ac3d6b4fa16cc891a82806045bc599791}{set\-Eigendecomposition} (float $\ast$eval, float $\ast$evecs)
+\begin{DoxyCompactList}\small\item\em Setter. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_abd101e871396332059f01fa8efad95ef}{set\-Number\-Vertices} (unsigned int n\-V)
+\begin{DoxyCompactList}\small\item\em Setter method. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a36f61f5a8dcca43a543fb22923febd63}{set\-Number\-Eigenvalues} (unsigned int n\-E)
+\begin{DoxyCompactList}\small\item\em Setter method. \end{DoxyCompactList}\item 
+float \hyperlink{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a875412ee91d4a5b945d32ebf4c72bb16}{compute\-Squared\-Distance} (unsigned int v1, unsigned int v2, float t)
+\begin{DoxyCompactList}\small\item\em Computation of distance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a2b62cba68ef92729d43f70211a8418b2}{float $\ast$ {\bfseries evals}}\label{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a2b62cba68ef92729d43f70211a8418b2}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a31ec98137b9d138e6f032bfd13b6b913}{float $\ast$ {\bfseries evecs}}\label{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a31ec98137b9d138e6f032bfd13b6b913}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a2a4221a507ec814c02b86453584b3fa7}{unsigned int {\bfseries num\-\_\-vertex}}\label{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a2a4221a507ec814c02b86453584b3fa7}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a649f018b9ad4bf676ce7710c9c227381}{unsigned int {\bfseries num\-\_\-eigenvalues}}\label{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a649f018b9ad4bf676ce7710c9c227381}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Compute the Diffusion distance between vertices in a 3\-D mesh. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a8e8baa67a9e1c65048efc05bcfbf9f09}{\index{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance}!Diffusion\-Distance@{Diffusion\-Distance}}
+\index{Diffusion\-Distance@{Diffusion\-Distance}!HeatDiffusion::Distance::DiffusionDistance@{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance}}
+\subsubsection[{Diffusion\-Distance}]{\setlength{\rightskip}{0pt plus 5cm}Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance\-::\-Diffusion\-Distance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a8e8baa67a9e1c65048efc05bcfbf9f09}
+
+
+Constructor. 
+
+Default constructor. \hypertarget{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_ab0894c1a691c9567c65213b61bed2d77}{\index{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance}!Diffusion\-Distance@{Diffusion\-Distance}}
+\index{Diffusion\-Distance@{Diffusion\-Distance}!HeatDiffusion::Distance::DiffusionDistance@{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance}}
+\subsubsection[{Diffusion\-Distance}]{\setlength{\rightskip}{0pt plus 5cm}Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance\-::\-Diffusion\-Distance (
+\begin{DoxyParamCaption}
+\item[{float $\ast$}]{eval, }
+\item[{float $\ast$}]{evec, }
+\item[{unsigned int}]{n\-V, }
+\item[{unsigned int}]{n\-E}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_ab0894c1a691c9567c65213b61bed2d77}
+
+
+Constructor. 
+
+It creates an object with the provided data 
+\begin{DoxyParams}{Parameters}
+{\em eval} & the buffer of eigenvalues \\
+\hline
+{\em evecs} & the buffer of eigenvectors \\
+\hline
+{\em n\-V} & the number of vertices \\
+\hline
+{\em n\-E} & the number of eigenvalues \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a875412ee91d4a5b945d32ebf4c72bb16}{\index{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance}!compute\-Squared\-Distance@{compute\-Squared\-Distance}}
+\index{compute\-Squared\-Distance@{compute\-Squared\-Distance}!HeatDiffusion::Distance::DiffusionDistance@{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance}}
+\subsubsection[{compute\-Squared\-Distance}]{\setlength{\rightskip}{0pt plus 5cm}float Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance\-::compute\-Squared\-Distance (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{v1, }
+\item[{unsigned int}]{v2, }
+\item[{float}]{t}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a875412ee91d4a5b945d32ebf4c72bb16}
+
+
+Computation of distance. 
+
+Computes the squared diffusion distance between two vertices given a value of time 
+\begin{DoxyParams}{Parameters}
+{\em v1} & the index of the first vertex \\
+\hline
+{\em v2} & the index of the second vertex \\
+\hline
+{\em t} & the value of time \\
+\hline
+\end{DoxyParams}
+\hypertarget{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_ac3d6b4fa16cc891a82806045bc599791}{\index{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance}!set\-Eigendecomposition@{set\-Eigendecomposition}}
+\index{set\-Eigendecomposition@{set\-Eigendecomposition}!HeatDiffusion::Distance::DiffusionDistance@{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance}}
+\subsubsection[{set\-Eigendecomposition}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance\-::set\-Eigendecomposition (
+\begin{DoxyParamCaption}
+\item[{float $\ast$}]{eval, }
+\item[{float $\ast$}]{evecs}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_ac3d6b4fa16cc891a82806045bc599791}
+
+
+Setter. 
+
+Sets the eigenvalues and eigenvectors of the \hyperlink{classHeatDiffusion_1_1Laplacian}{Laplacian} matrix \hypertarget{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a36f61f5a8dcca43a543fb22923febd63}{\index{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance}!set\-Number\-Eigenvalues@{set\-Number\-Eigenvalues}}
+\index{set\-Number\-Eigenvalues@{set\-Number\-Eigenvalues}!HeatDiffusion::Distance::DiffusionDistance@{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance}}
+\subsubsection[{set\-Number\-Eigenvalues}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance\-::set\-Number\-Eigenvalues (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{n\-E}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_a36f61f5a8dcca43a543fb22923febd63}
+
+
+Setter method. 
+
+Sets the number of eigen-\/pairs 
+\begin{DoxyParams}{Parameters}
+{\em n\-E} & the number of eigen-\/pairs \\
+\hline
+\end{DoxyParams}
+\hypertarget{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_abd101e871396332059f01fa8efad95ef}{\index{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance}!set\-Number\-Vertices@{set\-Number\-Vertices}}
+\index{set\-Number\-Vertices@{set\-Number\-Vertices}!HeatDiffusion::Distance::DiffusionDistance@{Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance}}
+\subsubsection[{set\-Number\-Vertices}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Distance\-::\-Diffusion\-Distance\-::set\-Number\-Vertices (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{n\-V}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1DiffusionDistance_abd101e871396332059f01fa8efad95ef}
+
+
+Setter method. 
+
+Sets the number of vertices 
+\begin{DoxyParams}{Parameters}
+{\em n\-V} & the number of vertices \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+include/\-Distance/Diffusion\-Distance.\-h\end{DoxyCompactItemize}

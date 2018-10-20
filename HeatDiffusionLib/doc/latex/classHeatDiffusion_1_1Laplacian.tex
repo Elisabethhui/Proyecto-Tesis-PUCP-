@@ -1,0 +1,201 @@
+\hypertarget{classHeatDiffusion_1_1Laplacian}{\section{Heat\-Diffusion\-:\-:Laplacian Class Reference}
+\label{classHeatDiffusion_1_1Laplacian}\index{Heat\-Diffusion\-::\-Laplacian@{Heat\-Diffusion\-::\-Laplacian}}
+}
+
+
+\hyperlink{classHeatDiffusion_1_1Laplacian}{Laplacian} class.  
+
+
+
+
+{\ttfamily \#include $<$Laplacian.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classHeatDiffusion_1_1Laplacian_af6d49e30673bad36c54577b5ef308713}{Laplacian} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+\hyperlink{classHeatDiffusion_1_1Laplacian_a5b2884cae28c3a3372efb8fc68dc4adf}{Laplacian} (int t, unsigned int num\-Eig)
+\begin{DoxyCompactList}\small\item\em A constructor. \end{DoxyCompactList}\item 
+\hyperlink{classHeatDiffusion_1_1Laplacian_a6d75faab3515606259805213f5d839f2}{$\sim$\-Laplacian} ()
+\begin{DoxyCompactList}\small\item\em A destructor. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Laplacian_ac5dc801c9abcb1f493b0eba983462d89}{compute} ()
+\begin{DoxyCompactList}\small\item\em Method compute. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Laplacian_ac523d3ba9a52b77695a0f8c7f0b32211}{set\-Geometry\-Data} (int num\-\_\-vertex, float $\ast$vertex\-Buffer, int num\-\_\-triangles, unsigned int $\ast$index\-Buffer)
+\begin{DoxyCompactList}\small\item\em Method to set the geometry. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Laplacian_a0d5c85db708d21b356365e39ec39aa4c}{set\-Type} (int t)
+\item 
+void \hyperlink{classHeatDiffusion_1_1Laplacian_a55bd3b384449488023a8e934480b3201}{set\-Number\-Eigenvalues} (int num\-Eig)
+\item 
+float $\ast$ \hyperlink{classHeatDiffusion_1_1Laplacian_ae134a3f26492129c884ee0e717bff700}{get\-Areas} ()
+\begin{DoxyCompactList}\small\item\em Access method. \end{DoxyCompactList}\item 
+float $\ast$ \hyperlink{classHeatDiffusion_1_1Laplacian_ab7cdd4b14673a287fb00dd69f568fe99}{get\-Evals} ()
+\begin{DoxyCompactList}\small\item\em Access method. \end{DoxyCompactList}\item 
+float $\ast$ \hyperlink{classHeatDiffusion_1_1Laplacian_a0439cc517cebced5f003df75bd2d75cc}{get\-Evecs} ()
+\begin{DoxyCompactList}\small\item\em Access method. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classHeatDiffusion_1_1Laplacian_ad98761933dfbd3e2e829ca9692c3f7dd}{get\-Num\-Eigenvalues} ()
+\begin{DoxyCompactList}\small\item\em Access method. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classHeatDiffusion_1_1Laplacian}{Laplacian} class. 
+
+A class to compute the Laplace-\/\-Beltrami operator of a 3\-D triangular mesh and its Eigendecomposition. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classHeatDiffusion_1_1Laplacian_af6d49e30673bad36c54577b5ef308713}{\index{Heat\-Diffusion\-::\-Laplacian@{Heat\-Diffusion\-::\-Laplacian}!Laplacian@{Laplacian}}
+\index{Laplacian@{Laplacian}!HeatDiffusion::Laplacian@{Heat\-Diffusion\-::\-Laplacian}}
+\subsubsection[{Laplacian}]{\setlength{\rightskip}{0pt plus 5cm}Heat\-Diffusion\-::\-Laplacian\-::\-Laplacian (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Laplacian_af6d49e30673bad36c54577b5ef308713}
+
+
+Default constructor. 
+
+It creates an empty object. You must use set\-Type and set\-Number\-Eigenvalues to provide the required information for the computation. \begin{DoxySeeAlso}{See Also}
+\hyperlink{classHeatDiffusion_1_1Laplacian_a0d5c85db708d21b356365e39ec39aa4c}{set\-Type()} and \hyperlink{classHeatDiffusion_1_1Laplacian_a55bd3b384449488023a8e934480b3201}{set\-Number\-Eigenvalues()} 
+\end{DoxySeeAlso}
+\hypertarget{classHeatDiffusion_1_1Laplacian_a5b2884cae28c3a3372efb8fc68dc4adf}{\index{Heat\-Diffusion\-::\-Laplacian@{Heat\-Diffusion\-::\-Laplacian}!Laplacian@{Laplacian}}
+\index{Laplacian@{Laplacian}!HeatDiffusion::Laplacian@{Heat\-Diffusion\-::\-Laplacian}}
+\subsubsection[{Laplacian}]{\setlength{\rightskip}{0pt plus 5cm}Heat\-Diffusion\-::\-Laplacian\-::\-Laplacian (
+\begin{DoxyParamCaption}
+\item[{int}]{t, }
+\item[{unsigned int}]{num\-Eig}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classHeatDiffusion_1_1Laplacian_a5b2884cae28c3a3372efb8fc68dc4adf}
+
+
+A constructor. 
+
+It creates a \hyperlink{classHeatDiffusion_1_1Laplacian}{Laplacian} object with the given type and number of eigenvalues. 
+\begin{DoxyParams}{Parameters}
+{\em t} & the type of \hyperlink{classHeatDiffusion_1_1Laplacian}{Laplacian}=\{B\-E\-L\-K\-I\-N, C\-O\-T\-A\-N, G\-R\-A\-P\-H\} \\
+\hline
+{\em num\-Eig} & the number of eigen-\/pairs in the Eigendecomposition \\
+\hline
+\end{DoxyParams}
+\hypertarget{classHeatDiffusion_1_1Laplacian_a6d75faab3515606259805213f5d839f2}{\index{Heat\-Diffusion\-::\-Laplacian@{Heat\-Diffusion\-::\-Laplacian}!$\sim$\-Laplacian@{$\sim$\-Laplacian}}
+\index{$\sim$\-Laplacian@{$\sim$\-Laplacian}!HeatDiffusion::Laplacian@{Heat\-Diffusion\-::\-Laplacian}}
+\subsubsection[{$\sim$\-Laplacian}]{\setlength{\rightskip}{0pt plus 5cm}Heat\-Diffusion\-::\-Laplacian\-::$\sim$\-Laplacian (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Laplacian_a6d75faab3515606259805213f5d839f2}
+
+
+A destructor. 
+
+Destroy the memory buffers for eigenvalues, eigenvectors and areas 
+
+\subsection{Member Function Documentation}
+\hypertarget{classHeatDiffusion_1_1Laplacian_ac5dc801c9abcb1f493b0eba983462d89}{\index{Heat\-Diffusion\-::\-Laplacian@{Heat\-Diffusion\-::\-Laplacian}!compute@{compute}}
+\index{compute@{compute}!HeatDiffusion::Laplacian@{Heat\-Diffusion\-::\-Laplacian}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Laplacian\-::compute (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Laplacian_ac5dc801c9abcb1f493b0eba983462d89}
+
+
+Method compute. 
+
+Method that actually performs the computation of the \hyperlink{classHeatDiffusion_1_1Laplacian}{Laplacian} matrix and the Eigendecomposition \hypertarget{classHeatDiffusion_1_1Laplacian_ae134a3f26492129c884ee0e717bff700}{\index{Heat\-Diffusion\-::\-Laplacian@{Heat\-Diffusion\-::\-Laplacian}!get\-Areas@{get\-Areas}}
+\index{get\-Areas@{get\-Areas}!HeatDiffusion::Laplacian@{Heat\-Diffusion\-::\-Laplacian}}
+\subsubsection[{get\-Areas}]{\setlength{\rightskip}{0pt plus 5cm}float$\ast$ Heat\-Diffusion\-::\-Laplacian\-::get\-Areas (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classHeatDiffusion_1_1Laplacian_ae134a3f26492129c884ee0e717bff700}
+
+
+Access method. 
+
+Get the buffer with area elements for vertices. Hint\-: the buffer is destroyed when \hyperlink{classHeatDiffusion_1_1Laplacian}{Laplacian} object is done. Make a copy if needed. \hypertarget{classHeatDiffusion_1_1Laplacian_ab7cdd4b14673a287fb00dd69f568fe99}{\index{Heat\-Diffusion\-::\-Laplacian@{Heat\-Diffusion\-::\-Laplacian}!get\-Evals@{get\-Evals}}
+\index{get\-Evals@{get\-Evals}!HeatDiffusion::Laplacian@{Heat\-Diffusion\-::\-Laplacian}}
+\subsubsection[{get\-Evals}]{\setlength{\rightskip}{0pt plus 5cm}float$\ast$ Heat\-Diffusion\-::\-Laplacian\-::get\-Evals (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classHeatDiffusion_1_1Laplacian_ab7cdd4b14673a287fb00dd69f568fe99}
+
+
+Access method. 
+
+Get the buffer with eigenvalues. Hint\-: the buffer is destroyed when \hyperlink{classHeatDiffusion_1_1Laplacian}{Laplacian} object is done. Make a copy if needed. \hypertarget{classHeatDiffusion_1_1Laplacian_a0439cc517cebced5f003df75bd2d75cc}{\index{Heat\-Diffusion\-::\-Laplacian@{Heat\-Diffusion\-::\-Laplacian}!get\-Evecs@{get\-Evecs}}
+\index{get\-Evecs@{get\-Evecs}!HeatDiffusion::Laplacian@{Heat\-Diffusion\-::\-Laplacian}}
+\subsubsection[{get\-Evecs}]{\setlength{\rightskip}{0pt plus 5cm}float$\ast$ Heat\-Diffusion\-::\-Laplacian\-::get\-Evecs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classHeatDiffusion_1_1Laplacian_a0439cc517cebced5f003df75bd2d75cc}
+
+
+Access method. 
+
+Get the buffer with eigenvectors. The eigenvectors are stored column-\/wise. Hint\-: the buffer is destroyed when \hyperlink{classHeatDiffusion_1_1Laplacian}{Laplacian} object is done. Make a copy if needed. \hypertarget{classHeatDiffusion_1_1Laplacian_ad98761933dfbd3e2e829ca9692c3f7dd}{\index{Heat\-Diffusion\-::\-Laplacian@{Heat\-Diffusion\-::\-Laplacian}!get\-Num\-Eigenvalues@{get\-Num\-Eigenvalues}}
+\index{get\-Num\-Eigenvalues@{get\-Num\-Eigenvalues}!HeatDiffusion::Laplacian@{Heat\-Diffusion\-::\-Laplacian}}
+\subsubsection[{get\-Num\-Eigenvalues}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Heat\-Diffusion\-::\-Laplacian\-::get\-Num\-Eigenvalues (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classHeatDiffusion_1_1Laplacian_ad98761933dfbd3e2e829ca9692c3f7dd}
+
+
+Access method. 
+
+Get the number of eigenvalues. \hypertarget{classHeatDiffusion_1_1Laplacian_ac523d3ba9a52b77695a0f8c7f0b32211}{\index{Heat\-Diffusion\-::\-Laplacian@{Heat\-Diffusion\-::\-Laplacian}!set\-Geometry\-Data@{set\-Geometry\-Data}}
+\index{set\-Geometry\-Data@{set\-Geometry\-Data}!HeatDiffusion::Laplacian@{Heat\-Diffusion\-::\-Laplacian}}
+\subsubsection[{set\-Geometry\-Data}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Laplacian\-::set\-Geometry\-Data (
+\begin{DoxyParamCaption}
+\item[{int}]{num\-\_\-vertex, }
+\item[{float $\ast$}]{vertex\-Buffer, }
+\item[{int}]{num\-\_\-triangles, }
+\item[{unsigned int $\ast$}]{index\-Buffer}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Laplacian_ac523d3ba9a52b77695a0f8c7f0b32211}
+
+
+Method to set the geometry. 
+
+It sets the required geometry. 
+\begin{DoxyParams}{Parameters}
+{\em num\-\_\-vertex} & the number of vertices in the 3\-D mesh. \\
+\hline
+{\em vertex\-Buffer} & the vertex buffer (three values for each vertex). \\
+\hline
+{\em num\-\_\-triangles} & the number of triangles in the 3\-D mesh. \\
+\hline
+{\em index\-Buffer} & the index buffer (three values for each face). \\
+\hline
+\end{DoxyParams}
+\hypertarget{classHeatDiffusion_1_1Laplacian_a55bd3b384449488023a8e934480b3201}{\index{Heat\-Diffusion\-::\-Laplacian@{Heat\-Diffusion\-::\-Laplacian}!set\-Number\-Eigenvalues@{set\-Number\-Eigenvalues}}
+\index{set\-Number\-Eigenvalues@{set\-Number\-Eigenvalues}!HeatDiffusion::Laplacian@{Heat\-Diffusion\-::\-Laplacian}}
+\subsubsection[{set\-Number\-Eigenvalues}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Laplacian\-::set\-Number\-Eigenvalues (
+\begin{DoxyParamCaption}
+\item[{int}]{num\-Eig}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classHeatDiffusion_1_1Laplacian_a55bd3b384449488023a8e934480b3201}
+It sets the number of eigen-\/pairs to compute. 
+\begin{DoxyParams}{Parameters}
+{\em num\-Eig} & the number of eigen-\/pairs required. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classHeatDiffusion_1_1Laplacian_a0d5c85db708d21b356365e39ec39aa4c}{\index{Heat\-Diffusion\-::\-Laplacian@{Heat\-Diffusion\-::\-Laplacian}!set\-Type@{set\-Type}}
+\index{set\-Type@{set\-Type}!HeatDiffusion::Laplacian@{Heat\-Diffusion\-::\-Laplacian}}
+\subsubsection[{set\-Type}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Laplacian\-::set\-Type (
+\begin{DoxyParamCaption}
+\item[{int}]{t}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classHeatDiffusion_1_1Laplacian_a0d5c85db708d21b356365e39ec39aa4c}
+It sets the type of \hyperlink{classHeatDiffusion_1_1Laplacian}{Laplacian} to compute. 
+\begin{DoxyParams}{Parameters}
+{\em t} & the type of \hyperlink{classHeatDiffusion_1_1Laplacian}{Laplacian} = \{B\-E\-L\-K\-I\-N, C\-O\-T\-A\-N, G\-R\-A\-P\-H\} \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+include/Laplacian.\-h\end{DoxyCompactItemize}

@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['compute',['compute',['../classHeatDiffusion_1_1Laplacian.html#ac5dc801c9abcb1f493b0eba983462d89',1,'HeatDiffusion::Laplacian']]],
+  ['computedescriptor',['computeDescriptor',['../classHeatDiffusion_1_1Descriptor_1_1HeatKernelSignature.html#a4c89ad438f3491a69ed6b6bc2fbafafe',1,'HeatDiffusion::Descriptor::HeatKernelSignature::computeDescriptor()'],['../classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature.html#aed65171dd85cc4375b9d87248bce03b6',1,'HeatDiffusion::Descriptor::WaveKernelSignature::computeDescriptor()']]],
+  ['computesquareddistance',['computeSquaredDistance',['../classHeatDiffusion_1_1Distance_1_1BiharmonicDistance.html#a3c6d819ac6549c545f0476e6f669e3a1',1,'HeatDiffusion::Distance::BiharmonicDistance::computeSquaredDistance()'],['../classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance.html#a4c3d012b2deb9db657229a31ba3663f3',1,'HeatDiffusion::Distance::ConmuteTimeDistance::computeSquaredDistance()'],['../classHeatDiffusion_1_1Distance_1_1DiffusionDistance.html#a875412ee91d4a5b945d32ebf4c72bb16',1,'HeatDiffusion::Distance::DiffusionDistance::computeSquaredDistance()']]],
+  ['conmutetimedistance',['ConmuteTimeDistance',['../classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance.html#a433d9d6ef6156f0837677aae391eabb9',1,'HeatDiffusion::Distance::ConmuteTimeDistance::ConmuteTimeDistance()'],['../classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance.html#ae403ede149a4754983eff5ee94c4dba7',1,'HeatDiffusion::Distance::ConmuteTimeDistance::ConmuteTimeDistance(float *eval, float *evec, unsigned int nV, unsigned int nE)']]],
+  ['conmutetimedistance',['ConmuteTimeDistance',['../classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance.html',1,'HeatDiffusion::Distance']]]
+];

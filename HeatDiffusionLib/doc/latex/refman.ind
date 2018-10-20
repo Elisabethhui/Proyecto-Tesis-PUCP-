@@ -1,0 +1,207 @@
+\begin{theindex}
+
+  \item {$\sim $\discretionary {-}{}{}Laplacian}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Laplacian}, 
+		\hyperpage{12}
+
+  \indexspace
+
+  \item {Biharmonic\discretionary {-}{}{}Distance}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Biharmonic\discretionary {-}{}{}Distance}, 
+		\hyperpage{3, 4}
+
+  \indexspace
+
+  \item {compute}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Laplacian}, 
+		\hyperpage{12}
+  \item {compute\discretionary {-}{}{}Descriptor}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Heat\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{10}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Wave\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{15}
+  \item {compute\discretionary {-}{}{}Squared\discretionary {-}{}{}Distance}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Biharmonic\discretionary {-}{}{}Distance}, 
+		\hyperpage{4}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Conmute\discretionary {-}{}{}Time\discretionary {-}{}{}Distance}, 
+		\hyperpage{6}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Diffusion\discretionary {-}{}{}Distance}, 
+		\hyperpage{7}
+  \item {Conmute\discretionary {-}{}{}Time\discretionary {-}{}{}Distance}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Conmute\discretionary {-}{}{}Time\discretionary {-}{}{}Distance}, 
+		\hyperpage{5}
+
+  \indexspace
+
+  \item {Diffusion\discretionary {-}{}{}Distance}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Diffusion\discretionary {-}{}{}Distance}, 
+		\hyperpage{7}
+
+  \indexspace
+
+  \item {get\discretionary {-}{}{}Areas}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Laplacian}, 
+		\hyperpage{12}
+  \item {get\discretionary {-}{}{}Descriptors}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Heat\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{10}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Wave\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{15}
+  \item {get\discretionary {-}{}{}Evals}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Laplacian}, 
+		\hyperpage{12}
+  \item {get\discretionary {-}{}{}Evecs}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Laplacian}, 
+		\hyperpage{12}
+  \item {get\discretionary {-}{}{}Num\discretionary {-}{}{}Eigenvalues}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Laplacian}, 
+		\hyperpage{12}
+
+  \indexspace
+
+  \item {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Heat\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{8}
+    \subitem {compute\discretionary {-}{}{}Descriptor}, \hyperpage{10}
+    \subitem {get\discretionary {-}{}{}Descriptors}, \hyperpage{10}
+    \subitem {Heat\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{9}
+    \subitem {set\discretionary {-}{}{}Descriptor\discretionary {-}{}{}Dimension}, 
+		\hyperpage{10}
+    \subitem {set\discretionary {-}{}{}Eigendecomposition}, 
+		\hyperpage{10}
+    \subitem {set\discretionary {-}{}{}Number\discretionary {-}{}{}Eigenvalues}, 
+		\hyperpage{10}
+    \subitem {set\discretionary {-}{}{}Number\discretionary {-}{}{}Vertices}, 
+		\hyperpage{10}
+  \item {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Wave\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{13}
+    \subitem {compute\discretionary {-}{}{}Descriptor}, \hyperpage{15}
+    \subitem {get\discretionary {-}{}{}Descriptors}, \hyperpage{15}
+    \subitem {set\discretionary {-}{}{}Descriptor\discretionary {-}{}{}Dimension}, 
+		\hyperpage{15}
+    \subitem {set\discretionary {-}{}{}Eigendecomposition}, 
+		\hyperpage{15}
+    \subitem {set\discretionary {-}{}{}Number\discretionary {-}{}{}Eigenvalues}, 
+		\hyperpage{15}
+    \subitem {set\discretionary {-}{}{}Number\discretionary {-}{}{}Vertices}, 
+		\hyperpage{16}
+    \subitem {Wave\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{14}
+  \item {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Biharmonic\discretionary {-}{}{}Distance}, 
+		\hyperpage{3}
+    \subitem {Biharmonic\discretionary {-}{}{}Distance}, 
+		\hyperpage{3, 4}
+    \subitem {compute\discretionary {-}{}{}Squared\discretionary {-}{}{}Distance}, 
+		\hyperpage{4}
+    \subitem {set\discretionary {-}{}{}Eigendecomposition}, 
+		\hyperpage{4}
+    \subitem {set\discretionary {-}{}{}Number\discretionary {-}{}{}Eigenvalues}, 
+		\hyperpage{4}
+    \subitem {set\discretionary {-}{}{}Number\discretionary {-}{}{}Vertices}, 
+		\hyperpage{4}
+  \item {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Conmute\discretionary {-}{}{}Time\discretionary {-}{}{}Distance}, 
+		\hyperpage{5}
+    \subitem {compute\discretionary {-}{}{}Squared\discretionary {-}{}{}Distance}, 
+		\hyperpage{6}
+    \subitem {Conmute\discretionary {-}{}{}Time\discretionary {-}{}{}Distance}, 
+		\hyperpage{5}
+    \subitem {set\discretionary {-}{}{}Eigendecomposition}, 
+		\hyperpage{6}
+    \subitem {set\discretionary {-}{}{}Number\discretionary {-}{}{}Eigenvalues}, 
+		\hyperpage{6}
+    \subitem {set\discretionary {-}{}{}Number\discretionary {-}{}{}Vertices}, 
+		\hyperpage{6}
+  \item {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Diffusion\discretionary {-}{}{}Distance}, 
+		\hyperpage{6}
+    \subitem {compute\discretionary {-}{}{}Squared\discretionary {-}{}{}Distance}, 
+		\hyperpage{7}
+    \subitem {Diffusion\discretionary {-}{}{}Distance}, \hyperpage{7}
+    \subitem {set\discretionary {-}{}{}Eigendecomposition}, 
+		\hyperpage{8}
+    \subitem {set\discretionary {-}{}{}Number\discretionary {-}{}{}Eigenvalues}, 
+		\hyperpage{8}
+    \subitem {set\discretionary {-}{}{}Number\discretionary {-}{}{}Vertices}, 
+		\hyperpage{8}
+  \item {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Laplacian}, 
+		\hyperpage{11}
+    \subitem {$\sim $\discretionary {-}{}{}Laplacian}, \hyperpage{12}
+    \subitem {compute}, \hyperpage{12}
+    \subitem {get\discretionary {-}{}{}Areas}, \hyperpage{12}
+    \subitem {get\discretionary {-}{}{}Evals}, \hyperpage{12}
+    \subitem {get\discretionary {-}{}{}Evecs}, \hyperpage{12}
+    \subitem {get\discretionary {-}{}{}Num\discretionary {-}{}{}Eigenvalues}, 
+		\hyperpage{12}
+    \subitem {Laplacian}, \hyperpage{11}
+    \subitem {set\discretionary {-}{}{}Geometry\discretionary {-}{}{}Data}, 
+		\hyperpage{12}
+    \subitem {set\discretionary {-}{}{}Number\discretionary {-}{}{}Eigenvalues}, 
+		\hyperpage{13}
+    \subitem {set\discretionary {-}{}{}Type}, \hyperpage{13}
+  \item {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Vector}, 
+		\hyperpage{13}
+  \item {Heat\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Heat\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{9}
+
+  \indexspace
+
+  \item {Laplacian}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Laplacian}, 
+		\hyperpage{11}
+
+  \indexspace
+
+  \item {set\discretionary {-}{}{}Descriptor\discretionary {-}{}{}Dimension}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Heat\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{10}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Wave\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{15}
+  \item {set\discretionary {-}{}{}Eigendecomposition}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Heat\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{10}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Wave\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{15}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Biharmonic\discretionary {-}{}{}Distance}, 
+		\hyperpage{4}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Conmute\discretionary {-}{}{}Time\discretionary {-}{}{}Distance}, 
+		\hyperpage{6}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Diffusion\discretionary {-}{}{}Distance}, 
+		\hyperpage{8}
+  \item {set\discretionary {-}{}{}Geometry\discretionary {-}{}{}Data}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Laplacian}, 
+		\hyperpage{12}
+  \item {set\discretionary {-}{}{}Number\discretionary {-}{}{}Eigenvalues}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Heat\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{10}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Wave\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{15}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Biharmonic\discretionary {-}{}{}Distance}, 
+		\hyperpage{4}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Conmute\discretionary {-}{}{}Time\discretionary {-}{}{}Distance}, 
+		\hyperpage{6}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Diffusion\discretionary {-}{}{}Distance}, 
+		\hyperpage{8}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Laplacian}, 
+		\hyperpage{13}
+  \item {set\discretionary {-}{}{}Number\discretionary {-}{}{}Vertices}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Heat\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{10}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Wave\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{16}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Biharmonic\discretionary {-}{}{}Distance}, 
+		\hyperpage{4}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Conmute\discretionary {-}{}{}Time\discretionary {-}{}{}Distance}, 
+		\hyperpage{6}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Distance\discretionary {-}{}{}::\discretionary {-}{}{}Diffusion\discretionary {-}{}{}Distance}, 
+		\hyperpage{8}
+  \item {set\discretionary {-}{}{}Type}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Laplacian}, 
+		\hyperpage{13}
+
+  \indexspace
+
+  \item {Wave\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}
+    \subitem {Heat\discretionary {-}{}{}Diffusion\discretionary {-}{}{}::\discretionary {-}{}{}Descriptor\discretionary {-}{}{}::\discretionary {-}{}{}Wave\discretionary {-}{}{}Kernel\discretionary {-}{}{}Signature}, 
+		\hyperpage{14}
+
+\end{theindex}

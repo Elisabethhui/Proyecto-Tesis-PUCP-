@@ -1,0 +1,155 @@
+\hypertarget{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance}{\section{Heat\-Diffusion\-:\-:Distance\-:\-:Conmute\-Time\-Distance Class Reference}
+\label{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance}\index{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance}}
+}
+
+
+Compute the Conmute-\/time distance between vertices in a 3\-D mesh.  
+
+
+
+
+{\ttfamily \#include $<$Conmute\-Time\-Distance.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a433d9d6ef6156f0837677aae391eabb9}{Conmute\-Time\-Distance} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\hyperlink{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_ae403ede149a4754983eff5ee94c4dba7}{Conmute\-Time\-Distance} (float $\ast$eval, float $\ast$evec, unsigned int n\-V, unsigned int n\-E)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a6a7cfd79f3a1d7377211d1f24cbc2f80}{set\-Eigendecomposition} (float $\ast$eval, float $\ast$evecs)
+\begin{DoxyCompactList}\small\item\em Setter. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_aab16b4e5157d12f470e02f8ad245e0a4}{set\-Number\-Vertices} (unsigned int n\-V)
+\begin{DoxyCompactList}\small\item\em Setter method. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a591153596c07a85617d30e7ddcd3c1cd}{set\-Number\-Eigenvalues} (unsigned int n\-E)
+\begin{DoxyCompactList}\small\item\em Setter method. \end{DoxyCompactList}\item 
+float \hyperlink{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a4c3d012b2deb9db657229a31ba3663f3}{compute\-Squared\-Distance} (unsigned int v1, unsigned int v2)
+\begin{DoxyCompactList}\small\item\em Computation of distance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a4be3b5cb26d80fce166ff1693e3ec9bc}{float $\ast$ {\bfseries evals}}\label{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a4be3b5cb26d80fce166ff1693e3ec9bc}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_abed3d7ee7b451bef7600a276185354c6}{float $\ast$ {\bfseries evecs}}\label{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_abed3d7ee7b451bef7600a276185354c6}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_aed2cf8eeb6dfd1a060458432144c050e}{unsigned int {\bfseries num\-\_\-vertex}}\label{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_aed2cf8eeb6dfd1a060458432144c050e}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a579e52a3f3da35876304ec328a425808}{unsigned int {\bfseries num\-\_\-eigenvalues}}\label{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a579e52a3f3da35876304ec328a425808}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Compute the Conmute-\/time distance between vertices in a 3\-D mesh. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a433d9d6ef6156f0837677aae391eabb9}{\index{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance}!Conmute\-Time\-Distance@{Conmute\-Time\-Distance}}
+\index{Conmute\-Time\-Distance@{Conmute\-Time\-Distance}!HeatDiffusion::Distance::ConmuteTimeDistance@{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance}}
+\subsubsection[{Conmute\-Time\-Distance}]{\setlength{\rightskip}{0pt plus 5cm}Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance\-::\-Conmute\-Time\-Distance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a433d9d6ef6156f0837677aae391eabb9}
+
+
+Constructor. 
+
+Default constructor. \hypertarget{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_ae403ede149a4754983eff5ee94c4dba7}{\index{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance}!Conmute\-Time\-Distance@{Conmute\-Time\-Distance}}
+\index{Conmute\-Time\-Distance@{Conmute\-Time\-Distance}!HeatDiffusion::Distance::ConmuteTimeDistance@{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance}}
+\subsubsection[{Conmute\-Time\-Distance}]{\setlength{\rightskip}{0pt plus 5cm}Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance\-::\-Conmute\-Time\-Distance (
+\begin{DoxyParamCaption}
+\item[{float $\ast$}]{eval, }
+\item[{float $\ast$}]{evec, }
+\item[{unsigned int}]{n\-V, }
+\item[{unsigned int}]{n\-E}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_ae403ede149a4754983eff5ee94c4dba7}
+
+
+Constructor. 
+
+It creates an object with the provided data 
+\begin{DoxyParams}{Parameters}
+{\em eval} & the buffer of eigenvalues \\
+\hline
+{\em evecs} & the buffer of eigenvectors \\
+\hline
+{\em n\-V} & the number of vertices \\
+\hline
+{\em n\-E} & the number of eigenvalues \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a4c3d012b2deb9db657229a31ba3663f3}{\index{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance}!compute\-Squared\-Distance@{compute\-Squared\-Distance}}
+\index{compute\-Squared\-Distance@{compute\-Squared\-Distance}!HeatDiffusion::Distance::ConmuteTimeDistance@{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance}}
+\subsubsection[{compute\-Squared\-Distance}]{\setlength{\rightskip}{0pt plus 5cm}float Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance\-::compute\-Squared\-Distance (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{v1, }
+\item[{unsigned int}]{v2}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a4c3d012b2deb9db657229a31ba3663f3}
+
+
+Computation of distance. 
+
+Computes the squared conmute-\/time distance between two vertices 
+\begin{DoxyParams}{Parameters}
+{\em v1} & the index of the first vertex \\
+\hline
+{\em v2} & the index of the second vertex \\
+\hline
+\end{DoxyParams}
+\hypertarget{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a6a7cfd79f3a1d7377211d1f24cbc2f80}{\index{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance}!set\-Eigendecomposition@{set\-Eigendecomposition}}
+\index{set\-Eigendecomposition@{set\-Eigendecomposition}!HeatDiffusion::Distance::ConmuteTimeDistance@{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance}}
+\subsubsection[{set\-Eigendecomposition}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance\-::set\-Eigendecomposition (
+\begin{DoxyParamCaption}
+\item[{float $\ast$}]{eval, }
+\item[{float $\ast$}]{evecs}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a6a7cfd79f3a1d7377211d1f24cbc2f80}
+
+
+Setter. 
+
+Sets the eigenvalues and eigenvectors of the \hyperlink{classHeatDiffusion_1_1Laplacian}{Laplacian} matrix \hypertarget{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a591153596c07a85617d30e7ddcd3c1cd}{\index{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance}!set\-Number\-Eigenvalues@{set\-Number\-Eigenvalues}}
+\index{set\-Number\-Eigenvalues@{set\-Number\-Eigenvalues}!HeatDiffusion::Distance::ConmuteTimeDistance@{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance}}
+\subsubsection[{set\-Number\-Eigenvalues}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance\-::set\-Number\-Eigenvalues (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{n\-E}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_a591153596c07a85617d30e7ddcd3c1cd}
+
+
+Setter method. 
+
+Sets the number of eigen-\/pairs 
+\begin{DoxyParams}{Parameters}
+{\em n\-E} & the number of eigen-\/pairs \\
+\hline
+\end{DoxyParams}
+\hypertarget{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_aab16b4e5157d12f470e02f8ad245e0a4}{\index{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance@{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance}!set\-Number\-Vertices@{set\-Number\-Vertices}}
+\index{set\-Number\-Vertices@{set\-Number\-Vertices}!HeatDiffusion::Distance::ConmuteTimeDistance@{Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance}}
+\subsubsection[{set\-Number\-Vertices}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Distance\-::\-Conmute\-Time\-Distance\-::set\-Number\-Vertices (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{n\-V}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Distance_1_1ConmuteTimeDistance_aab16b4e5157d12f470e02f8ad245e0a4}
+
+
+Setter method. 
+
+Sets the number of vertices 
+\begin{DoxyParams}{Parameters}
+{\em n\-V} & the number of vertices \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+include/\-Distance/Conmute\-Time\-Distance.\-h\end{DoxyCompactItemize}

@@ -1,0 +1,58 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+%opening
+\title{Heat Diffusion Library}
+\author{Version 1.0}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+The Heat Diffusion Library is a C++ library for the computation of Heat Diffusion descriptors and distances. The library is intended to help 
+in the development of Heat Diffusion algorithms in C++ applications. It contains implementations for:
+
+\begin{itemize}
+ \item Discrete Laplacian matrices
+ \item Eigendecomposition of Laplacian
+ \item Descriptors: Heat Kernel Signatures and Wave Kernel Signatures
+ \item Distances: Diffusion distance, Conmute-time distance and Biharmonic distance
+\end{itemize}
+
+\section{Compilation}
+The library can be easily compiled using CMake. The package contains a CMake configuration file for building. The commands to compile 
+the library as a shadow build are
+
+\begin{verbatim}
+    >> mkdir build; cd build
+    >> cmake ..
+    >> make
+\end{verbatim}
+
+These commands will create a shared library.
+
+\subsection{Dependencies}
+The Heat Diffusion Library has a few dependencies as follows:
+
+\begin{itemize}
+ \item Eigen. The provided CMake configuration file will search for an installation of Eigen in your system.
+ \item Nanoflann. Provided in the library as Third-party
+ \item Arpack++. Provided in the library as Third-party
+\end{itemize}
+
+\section{Usage}
+To show the usage of the library in a C++ application, we provide a test program. In the test/ folder, you can find a program that reads a
+OFF file (3D mesh) and computes the Heat Kernel Signatures and Wave Kernel Signatures. The program finally saves the descriptors in files. 
+
+The test program also contains a CMake configuration file to show how to use the Heat Diffusion Library in an application. To properly compile
+the test program, you need to have SuperLU, Blas, Lapack and Arpack installed in your system. We provide a static SuperLu library as Third-party.
+
+To execute the test program, we provide a OFF file in the test/data/ folder.
+
+\section{Documentation}
+The documentation of the classes are provided in the doc/ folder. It contains the documentation in html and latex.
+
+
+\end{document}

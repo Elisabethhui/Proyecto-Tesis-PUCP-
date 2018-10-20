@@ -1,0 +1,214 @@
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature}{\section{Heat\-Diffusion\-:\-:Descriptor\-:\-:Wave\-Kernel\-Signature Class Reference}
+\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature}\index{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}}
+}
+
+
+\hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature}{Wave\-Kernel\-Signature} class.  
+
+
+
+
+{\ttfamily \#include $<$Wave\-Kernel\-Signature.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a16819e1056754d40b48fdae2b1ac22ff}{Wave\-Kernel\-Signature} ()
+\begin{DoxyCompactList}\small\item\em A default constructor. \end{DoxyCompactList}\item 
+\hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a857e0c9129837809216f169c758ce02c}{Wave\-Kernel\-Signature} (float $\ast$eval, float $\ast$evec, float $\ast$area, unsigned int n\-V, unsigned int n\-E, unsigned int dim, float var)
+\begin{DoxyCompactList}\small\item\em A constructor. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a5f0760b6238c1571ef3f0135efbef6f3}{set\-Eigendecomposition} (float $\ast$eval, float $\ast$evec, float $\ast$area)
+\begin{DoxyCompactList}\small\item\em Setter method. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_abf51ce3973d59ff73276ad86ecd3cc43}{set\-Number\-Vertices} (unsigned int n\-V)
+\begin{DoxyCompactList}\small\item\em Setter method. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a69e8ba8323841346583303d5d08d3e6b}{set\-Number\-Eigenvalues} (unsigned int n\-E)
+\begin{DoxyCompactList}\small\item\em Setter method. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a2b1204eb9d56a65532ab502f8b844c67}{set\-Descriptor\-Dimension} (unsigned int dim)
+\begin{DoxyCompactList}\small\item\em Setter method. \end{DoxyCompactList}\item 
+void \hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_aed65171dd85cc4375b9d87248bce03b6}{compute\-Descriptor} ()
+\begin{DoxyCompactList}\small\item\em Computation method. \end{DoxyCompactList}\item 
+float $\ast$ \hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_af5662d581c6b98ac60c35e690ceb18ec}{get\-Descriptors} ()
+\begin{DoxyCompactList}\small\item\em Access method. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_ac98dd393a796c88741978f8f815a5eac}{float $\ast$ {\bfseries evals}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_ac98dd393a796c88741978f8f815a5eac}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a20517bba8ef6ef87e8929ffb25b250d5}{float $\ast$ {\bfseries evecs}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a20517bba8ef6ef87e8929ffb25b250d5}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_adf5bf7f597b049ec7fdf2276fe775a35}{float $\ast$ {\bfseries areas}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_adf5bf7f597b049ec7fdf2276fe775a35}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a78e31c05e44da21619acbd89af4b851a}{unsigned int {\bfseries num\-\_\-vertex}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a78e31c05e44da21619acbd89af4b851a}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a41afa35b26f545d3638bb9192ddc364e}{unsigned int {\bfseries num\-\_\-eigenvalues}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a41afa35b26f545d3638bb9192ddc364e}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a3d326659000f607f40710f259285b3e9}{float {\bfseries variance}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a3d326659000f607f40710f259285b3e9}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a2eb0f3a1602e10d684a2491cab5d1a06}{unsigned int {\bfseries dimension}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a2eb0f3a1602e10d684a2491cab5d1a06}
+
+\item 
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a9836a898b104dd2d66c9fa80f7c48d20}{float $\ast$ {\bfseries wks}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a9836a898b104dd2d66c9fa80f7c48d20}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature}{Wave\-Kernel\-Signature} class. 
+
+A class to compute Wave Kernel Signatures 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a16819e1056754d40b48fdae2b1ac22ff}{\index{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}!Wave\-Kernel\-Signature@{Wave\-Kernel\-Signature}}
+\index{Wave\-Kernel\-Signature@{Wave\-Kernel\-Signature}!HeatDiffusion::Descriptor::WaveKernelSignature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}}
+\subsubsection[{Wave\-Kernel\-Signature}]{\setlength{\rightskip}{0pt plus 5cm}Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature\-::\-Wave\-Kernel\-Signature (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a16819e1056754d40b48fdae2b1ac22ff}
+
+
+A default constructor. 
+
+It creates an empty \hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature}{Wave\-Kernel\-Signature} object. You must use the setter methods to provide the required information. \begin{DoxySeeAlso}{See Also}
+\hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a5f0760b6238c1571ef3f0135efbef6f3}{set\-Eigendecomposition()}, \hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_abf51ce3973d59ff73276ad86ecd3cc43}{set\-Number\-Vertices()}, \hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a69e8ba8323841346583303d5d08d3e6b}{set\-Number\-Eigenvalues()} and \hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a2b1204eb9d56a65532ab502f8b844c67}{set\-Descriptor\-Dimension()}. 
+\end{DoxySeeAlso}
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a857e0c9129837809216f169c758ce02c}{\index{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}!Wave\-Kernel\-Signature@{Wave\-Kernel\-Signature}}
+\index{Wave\-Kernel\-Signature@{Wave\-Kernel\-Signature}!HeatDiffusion::Descriptor::WaveKernelSignature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}}
+\subsubsection[{Wave\-Kernel\-Signature}]{\setlength{\rightskip}{0pt plus 5cm}Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature\-::\-Wave\-Kernel\-Signature (
+\begin{DoxyParamCaption}
+\item[{float $\ast$}]{eval, }
+\item[{float $\ast$}]{evec, }
+\item[{float $\ast$}]{area, }
+\item[{unsigned int}]{n\-V, }
+\item[{unsigned int}]{n\-E, }
+\item[{unsigned int}]{dim, }
+\item[{float}]{var}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a857e0c9129837809216f169c758ce02c}
+
+
+A constructor. 
+
+It creates a \hyperlink{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature}{Wave\-Kernel\-Signature} object with the provided information. 
+\begin{DoxyParams}{Parameters}
+{\em eval} & the buffer of eigenvalues \\
+\hline
+{\em evec} & the buffer of eigenvectors \\
+\hline
+{\em area} & the buffer of areas \\
+\hline
+{\em n\-V} & the number of vertices \\
+\hline
+{\em n\-E} & the number of eigen-\/pairs \\
+\hline
+{\em dim} & the dimension of the output descriptors \\
+\hline
+{\em var} & the variance of energy functions \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_aed65171dd85cc4375b9d87248bce03b6}{\index{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}!compute\-Descriptor@{compute\-Descriptor}}
+\index{compute\-Descriptor@{compute\-Descriptor}!HeatDiffusion::Descriptor::WaveKernelSignature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}}
+\subsubsection[{compute\-Descriptor}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature\-::compute\-Descriptor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_aed65171dd85cc4375b9d87248bce03b6}
+
+
+Computation method. 
+
+It performs the computation of the H\-K\-S descriptors \hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_af5662d581c6b98ac60c35e690ceb18ec}{\index{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}!get\-Descriptors@{get\-Descriptors}}
+\index{get\-Descriptors@{get\-Descriptors}!HeatDiffusion::Descriptor::WaveKernelSignature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}}
+\subsubsection[{get\-Descriptors}]{\setlength{\rightskip}{0pt plus 5cm}float$\ast$ Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature\-::get\-Descriptors (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_af5662d581c6b98ac60c35e690ceb18ec}
+
+
+Access method. 
+
+Gets the buffer of descriptors. Descriptor matrix (num\-\_\-vertex x dimension) are stored in row-\/wise format \hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a2b1204eb9d56a65532ab502f8b844c67}{\index{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}!set\-Descriptor\-Dimension@{set\-Descriptor\-Dimension}}
+\index{set\-Descriptor\-Dimension@{set\-Descriptor\-Dimension}!HeatDiffusion::Descriptor::WaveKernelSignature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}}
+\subsubsection[{set\-Descriptor\-Dimension}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature\-::set\-Descriptor\-Dimension (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{dim}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a2b1204eb9d56a65532ab502f8b844c67}
+
+
+Setter method. 
+
+Sets the dimension of the output descriptors 
+\begin{DoxyParams}{Parameters}
+{\em dim} & the dimension of the output descriptors \\
+\hline
+\end{DoxyParams}
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a5f0760b6238c1571ef3f0135efbef6f3}{\index{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}!set\-Eigendecomposition@{set\-Eigendecomposition}}
+\index{set\-Eigendecomposition@{set\-Eigendecomposition}!HeatDiffusion::Descriptor::WaveKernelSignature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}}
+\subsubsection[{set\-Eigendecomposition}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature\-::set\-Eigendecomposition (
+\begin{DoxyParamCaption}
+\item[{float $\ast$}]{eval, }
+\item[{float $\ast$}]{evec, }
+\item[{float $\ast$}]{area}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a5f0760b6238c1571ef3f0135efbef6f3}
+
+
+Setter method. 
+
+Sets the information of the Eigendecomposition of the \hyperlink{classHeatDiffusion_1_1Laplacian}{Laplacian} 
+\begin{DoxyParams}{Parameters}
+{\em eval} & the buffer of eigenvalues \\
+\hline
+{\em evec} & the buffer of eigenvectors \\
+\hline
+{\em area} & the buffer of areas \\
+\hline
+\end{DoxyParams}
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a69e8ba8323841346583303d5d08d3e6b}{\index{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}!set\-Number\-Eigenvalues@{set\-Number\-Eigenvalues}}
+\index{set\-Number\-Eigenvalues@{set\-Number\-Eigenvalues}!HeatDiffusion::Descriptor::WaveKernelSignature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}}
+\subsubsection[{set\-Number\-Eigenvalues}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature\-::set\-Number\-Eigenvalues (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{n\-E}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_a69e8ba8323841346583303d5d08d3e6b}
+
+
+Setter method. 
+
+Sets the number of eigen-\/pairs 
+\begin{DoxyParams}{Parameters}
+{\em n\-E} & the number of eigen-\/pairs \\
+\hline
+\end{DoxyParams}
+\hypertarget{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_abf51ce3973d59ff73276ad86ecd3cc43}{\index{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}!set\-Number\-Vertices@{set\-Number\-Vertices}}
+\index{set\-Number\-Vertices@{set\-Number\-Vertices}!HeatDiffusion::Descriptor::WaveKernelSignature@{Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature}}
+\subsubsection[{set\-Number\-Vertices}]{\setlength{\rightskip}{0pt plus 5cm}void Heat\-Diffusion\-::\-Descriptor\-::\-Wave\-Kernel\-Signature\-::set\-Number\-Vertices (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{n\-V}
+\end{DoxyParamCaption}
+)}}\label{classHeatDiffusion_1_1Descriptor_1_1WaveKernelSignature_abf51ce3973d59ff73276ad86ecd3cc43}
+
+
+Setter method. 
+
+Sets the number of vertices 
+\begin{DoxyParams}{Parameters}
+{\em n\-V} & the number of vertices \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+include/\-Descriptor/Wave\-Kernel\-Signature.\-h\end{DoxyCompactItemize}
